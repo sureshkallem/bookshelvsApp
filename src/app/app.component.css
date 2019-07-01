@@ -1,0 +1,116 @@
+.page-content {
+    margin-top: 50px;
+}
+
+footer {
+    font-size: 0.8rem;
+    margin: 30px 0;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-right: 10rem !important;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
+
+.navbar-container {
+    -webkit-box-shadow: 0 6px 4px -4px black;
+    -moz-box-shadow: 0 6px 4px -4px black;
+    box-shadow: 0 4px 4px -4px black;
+}
+
+.dropdown-item {
+    font-size: 0.8rem;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+header {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    background: linear-gradient( rgba(58, 190, 181, 0.9), rgba(58, 190, 181, 0.9)), url("/assets/images/bookshelves.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.tagline {
+    font-weight: 300;
+    font-size: 2.2rem;
+}
+
+.subtitle {
+    font-weight: 300;
+}
+
+
+/*Search Box CSS*/
+
+.search-group {
+    width: 250px;
+    position: relative;
+}
+
+.Search {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.Search-box {
+    margin: 0 12px;
+    padding: 0px 15px;
+    padding-left: 40px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: #efefef;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+.Search-box:focus {
+    outline: 0;
+}
+
+.Search-label {
+    color: #999;
+    position: absolute;
+    top: 12px;
+    left: 25px;
+    font-size: 15px;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #999;
+    letter-spacing: 1px;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #999;
+    letter-spacing: 1px;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #999;
+    letter-spacing: 1px;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #999;
+    letter-spacing: 1px;
+}

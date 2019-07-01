@@ -1,0 +1,8 @@
+img {
+    width: 50 px;
+    height: 80 px;
+}
+
+.highlighted {
+    background-color: skyblue;
+}

@@ -1,0 +1,144 @@
+{
+    "books": [{
+            "title": "Title1",
+            "author": "author1",
+            "image": "assets/images/book_1.jpeg",
+            "categorty": "technology",
+            "status": 1
+        },
+        {
+            "title": "Title2",
+            "author": "author2",
+            "image": "assets/images/book_2.jpeg",
+            "categorty": "technology",
+            "status": 1
+        },
+        {
+            "title": "Title3",
+            "author": "author3",
+            "image": "assets/images/book_3.jpeg",
+            "categorty": "technology",
+            "status": 1
+        },
+        {
+            "title": "Title4",
+            "author": "author4",
+            "image": "assets/images/book_1.jpeg",
+            "categorty": "fitness",
+            "status": 2
+        },
+        {
+            "title": "Title5",
+            "author": "author5",
+            "image": "assets/images/book_2.jpeg",
+            "categorty": "fitness",
+            "status": 2
+        },
+        {
+            "title": "Title6",
+            "author": "author6",
+            "image": "assets/images/book_3.jpeg",
+            "categorty": "fitness",
+            "status": 2
+        },
+        {
+            "title": "Title7",
+            "author": "author7",
+            "image": "assets/images/book_2.jpeg",
+            "categorty": "fitness",
+            "status": 3
+        },
+        {
+            "title": "Title8",
+            "author": "author8",
+            "image": "assets/images/book_3.jpeg",
+            "categorty": "fitness",
+            "status": 3
+        },
+        {
+            "title": "Title9",
+            "author": "author9",
+            "image": "assets/images/book_1.jpeg",
+            "categorty": "fitness",
+            "status": 3
+        },
+        {
+            "title": "Title10",
+            "author": "author10",
+            "image": "assets/images/book_1.jpeg",
+            "categorty": "fitness",
+            "status": 2
+        }
+    ],
+    "search": [{
+            "title": "Title11",
+            "author": "author11",
+            "image": "assets/images/book_1.jpeg",
+            "categorty": "technology",
+            "status": 3
+        },
+        {
+            "title": "Title12",
+            "author": "author12",
+            "image": "assets/images/book_2.jpeg",
+            "categorty": "health",
+            "status": 3
+        },
+        {
+            "title": "Title13",
+            "author": "author13",
+            "image": "assets/images/book_3.jpeg",
+            "categorty": "fitness",
+            "status": 3
+        },
+        {
+            "title": "Title14",
+            "author": "author14",
+            "image": "assets/images/book_1.jpeg",
+            "categorty": "cooking",
+            "status": 3
+        },
+        {
+            "title": "Title15",
+            "author": "author15",
+            "image": "assets/images/book_2.jpeg",
+            "categorty": "fitness",
+            "status": 3
+        },
+        {
+            "title": "Title16",
+            "author": "author16",
+            "image": "assets/images/book_3.jpeg",
+            "categorty": "cooking",
+            "status": 3
+        },
+        {
+            "title": "Title17",
+            "author": "author17",
+            "image": "assets/images/book_2.jpeg",
+            "categorty": "cooking",
+            "status": 3
+        },
+        {
+            "title": "Title18",
+            "author": "author18",
+            "image": "assets/images/book_3.jpeg",
+            "categorty": "health",
+            "status": 3
+        },
+        {
+            "title": "Title19",
+            "author": "author19",
+            "image": "assets/images/book_1.jpeg",
+            "categorty": "health",
+            "status": 3
+        },
+        {
+            "title": "Title20",
+            "author": "author20",
+            "image": "assets/images/book_1.jpeg",
+            "categorty": "health",
+            "status": 3
+        }
+    ]
+}

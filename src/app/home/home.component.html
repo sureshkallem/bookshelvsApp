@@ -1,0 +1,30 @@
+<h3>Hi {{currentUser.firstName}}!</h3>
+<p>You're logged in with Angular 8!!</p>
+
+
+<ngb-accordion #acc="ngbAccordion">
+    <ngb-panel id="toggle-1" title="Currently Reading">
+        <ng-template ngbPanelContent>
+            <app-book-info *ngFor="let j of this.bookService.booksCollection | bookStatus : 2 " [book]="j" (bookStatusSlected)="onBookStatusSlected($event)" [showBookStatus]='true'>
+            </app-book-info>
+        </ng-template>
+    </ngb-panel>
+    <ngb-panel id="toggle-2" title="Want To Read">
+        <ng-template ngbPanelContent>
+            <app-book-info *ngFor="let j of this.bookService.booksCollection | bookStatus : 3 " [book]="j" (bookStatusSlected)="onBookStatusSlected($event)" [showBookStatus]='true'>
+            </app-book-info>
+        </ng-template>
+    </ngb-panel>
+    <ngb-panel id="toggle-3" title="Read">
+        <ng-template ngbPanelContent>
+            <app-book-info *ngFor="let j of this.bookService.booksCollection | bookStatus : 1 " [book]="j" (bookStatusSlected)="onBookStatusSlected($event)" [showBookStatus]='true'>
+            </app-book-info>
+        </ng-template>
+    </ngb-panel>
+</ngb-accordion>
+
+<hr/>
+
+<button class="btn btn-sm btn-outline-primary mr-2" (click)="acc.toggle('toggle-1')">Currently Reading</button>
+<button class="btn btn-sm btn-outline-primary mr-2" (click)="acc.toggle('toggle-2')">Want To Read</button>
+<button class="btn btn-sm btn-outline-primary mr-2" (click)="acc.toggle('toggle-3')">Read</button>

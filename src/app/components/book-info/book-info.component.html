@@ -1,0 +1,32 @@
+<!-- <a class="thumbnail" href="#" data-toggle="modal" [attr.data-target]="'#' + book.fields.isbn + 'Modal'">
+    <img class="img-fluid" [src]="'https://images-na.ssl-images-amazon.com/images/P/' + book.fields.isbn + '.01._SCLZZZZZZZ_.jpg'" [alt]="book.fields.title">
+</a> -->
+
+<!-- <div>
+    <img src="data.image">
+    <label>data.title</label>
+    <label>data.author</label>
+</div> -->
+
+<div class="card card-block" *ngIf="data">
+    <img [src]="data.image">
+    <h4 class="card-title">
+        {{ data.title }}
+    </h4>
+    <p class="card-text">
+        {{ data.author }}
+    </p>
+
+    <div ngbDropdown *ngIf="showBookStatus">
+        <button class="btn btn-outline-primary" id="dropdownConfig" ngbDropdownToggle></button>
+        <div ngbDropdownMenu aria-labelledby="dropdownConfig">
+            <button ngbDropdownItem (click)="OnBookReadingStatusClik(2,data)" [class.highlighted]="data.status === 2">Currently Reading</button>
+            <button ngbDropdownItem (click)="OnBookReadingStatusClik(3,data)" [class.highlighted]="data.status === 3">Want To Read</button>
+            <button ngbDropdownItem (click)="OnBookReadingStatusClik(1,data)" [class.highlighted]="data.status === 1">Read</button>
+            <button ngbDropdownItem (click)="OnBookReadingStatusClik(0,data)" [class.highlighted]="data.status === 0">None</button>
+        </div>
+    </div>
+
+    <button *ngIf="!showBookStatus" class="btn btn-outline-primary" (click)="onAddToList(data)">Add</button>
+
+</div>

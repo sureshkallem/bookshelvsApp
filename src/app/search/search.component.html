@@ -1,0 +1,7 @@
+<p>
+    Search Books <br>
+    <input type="text" placeholder="search..." [(ngModel)]="searchValue">
+</p>
+
+<app-book-info *ngFor="let j of this.bookService.searchCollection | filter :'categorty' : searchValue : 'includes' " [book]=" j " [showBookStatus]='false' (addToBookSlected)="onAddToBookSlected($event)">
+</app-book-info>
